@@ -1,4 +1,10 @@
 grails-functional-failure
 =========================
 
-test project to show failures
+Success: when fork is true
+
+    grailsw test-app functional:
+
+Error: when fork is true
+
+    grailsw test-app functional: -war
